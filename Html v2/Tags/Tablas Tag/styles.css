@@ -1,0 +1,21 @@
+table, thead, tbody, tfoot, th, td {
+    width: 550px;
+    text-align: center;
+}
+
+table {
+    border-spacing: 3px;
+}
+
+th, td {
+    padding: 5px 10px;
+    border: 1px groove rgb(253, 28, 28);
+}
+
+thead {
+    background: rgb(253, 110, 110);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(204, 204, 204);
+}

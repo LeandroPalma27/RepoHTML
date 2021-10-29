@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="GET">
+        <input type="text" placeholder="Nombre" name="nombre" id="nombre" required />
+        <br />
+        <input type="password" placeholder="Contraseña" name="contraseña" id="contraseña" required />
+        <br />
+        <input type="number" name="edad" id="edad" min="1" max="100" step=".01" />
+        <br />
+        <input type="radio" name="genero" id="radioMasculino" value="masculino" />
+        <label for="radioMasculino">Masculino</label>
+        <input type="radio" name="genero" id="radioFemenino" value="femenino" />
+        <label for="radioFemenino">Femenino</label>
+        <input type="radio" name="genero" id="radioKbro" value="madrid" />
+        <label for="radioKbro">Madridista</label>
+        <br />
+        <input type="checkbox" name="cosas" id="1" value="Futbol"/>
+        <label for="1">Futbol</label><br>
+        <input type="checkbox" name="cosas" id="2" value="Juegos"/>
+        <label for="2">Juegos</label><br>
+        <input type="checkbox" name="cosas"id="3" value="Musica"/>
+        <label for="3">Musica</label><br>
+        <input type="checkbox" name="cosas" id="4" value="Barkita"/>
+        <label for="4">Barkita</label><br>
+        <input type="submit" value="Enviar" value="Hola"/>
+        <input type="submit" formnovalidate="formnovalidate" value="Enviar con get" />
+        <button type="submit">Enviar con boton</button>
+    </form>
+</body>
+
+</html>

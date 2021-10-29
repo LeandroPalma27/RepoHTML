@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@400;500&family=Heebo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.container a .botonFacebook {
+    width: 190px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(25, 31, 80);
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    font-family: 'Gluten', cursive;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+    line-height: 25px;
+}
+
+.container a .botonFacebook:hover{
+    cursor: pointer;
+    background-color: rgb(0, 74, 235);
+}

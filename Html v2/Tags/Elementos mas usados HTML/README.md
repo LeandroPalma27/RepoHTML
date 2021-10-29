@@ -1,0 +1,29 @@
+- div
+- h1, h2, h3, h4, h5, h6
+- a
+- header
+- navbar
+- img, audio, video
+- ol y ul (li)
+- p
+- span
+- i
+- form
+- table (thead(th). tbody((tr: fila de celdas)(td: celda)) y tfoot)
+- input
+- button
+- link
+- script
+- main
+- footer
+- section
+- aside
+- article
+- canvas
+- meta
+- strong (resalta algo, importante para el SEO)
+- span 
+- cite (para citar el titulo de una obra)
+- svg
+- select y option
+- textarea
